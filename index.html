@@ -2,10 +2,12 @@
 <head>
     <title>Home</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="caticon5.png">
 </head>
 <body>
+    <script src="index.js"></script>
     <div class="wrapper">
-        <div class="container">
+        <div id="container">
             <div class="navbar">
                 <ul>
                     <div id="icon">
@@ -13,12 +15,22 @@
                     </div>
                     <div id="cats">
                         <a href="#"> Cats</a>
-                    </div>
-                    <li><a href="index.html">Cats</a></li>
-                    <li><a href="breeds.html">Breeds</a></li>
-                    <li><a href="health.html">Health</a></li>
-                    <li><a href="">Cat Years</li></a>
+                    </div>  
                 </ul>
+            </div>
+        </div>
+        <div id="container2">
+            <div class="indexbuttons" id="breeds" onclick="window.location.href='breeds.html'">    
+                <h1>Breeds</h1>
+            </div>
+            <div class="indexbuttons" id="health" onclick="window.location.href='health.html'">    
+                <h1>Health</h1>
+            </div>
+            <div class="indexbuttons" id="something" onclick="window.location.href='catyears.html'">    
+                <h1>something</h1>
+            </div>
+            <div class="indexbuttons" id="catyears" onclick="window.location.href='catyears.html'">    
+                <h1>Cat Years</h1>
             </div>
         </div>
     </div>
