@@ -1,80 +1,107 @@
 body{
-    background-color: rgb(227, 255, 227);
+    background-color: white;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 10px;
+    margin: 0px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .wrapper{    
     max-width: 1920px;
     margin: 0 auto;
-    padding: 0 1px;
+    padding: 0;
     height: auto;
     overflow: auto;
-    justify-content: center;
-
-}
-
-#container{
-    height: auto;
-    overflow: auto;
-    justify-content: center;
     align-items: center;
 }
 
-#container #iconpng{
+#iconpng{
     height:90px;
-    padding-top: 5px;
     float: left;
 }
 
-#container #cats a{
+#cats a{
     text-decoration: none;
     color: white;
-    font-size: 400%;
+    font-size: 300%;
 }
 
 .navbar{
     position: fixed;
     z-index: 1000;
     top: 0;
-    width: 1920px;
+    left: 0;
+    width: 100%;
     background-color: rgba(4, 61, 4, 0.5);
     overflow: hidden;
     padding: 5px;
     height: 90px;
     margin-top: 0;
     margin-bottom: 7px;
-    line-height: 50px;
-    border-radius: 5px;
+    line-height: 80px;
     font-weight: bolder;
+    overflow-x: hidden; 
+    overflow-y: hidden;
 }
 
-.navbar ul {
-
-
+#container{
+    background-image: url(indexbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    max-width: 1920px;
+    margin: 0;
+    padding: 50px;
+    height: 1080px;
+    overflow: hidden;
+    color: white;
 }
+
+#container #indexpng {
+    margin-top: 30px;
+    height:200px;
+    padding-top: 5px;
+    float: left;
+}
+
+#name{
+    margin-top: 80px;
+    font-size: 500%;
+}
+
+.text{
+    margin-top: 350px;
+    position:relative;
+    font-size: 170%;
+}
+
 
 #container2 {
     max-width: 1200px;
-    margin: 20% auto 0px;
+    margin: 20px auto 0px;
     padding: 0 1px;
-    justify-content: center;
     height:auto;
     overflow: hidden;
+    color: rgb(4, 61, 4);
 }
 
 .indexbuttons{    
     height: 350px;
-    opacity: .7;
+    opacity: .8;
     width: 500px;
-    margin-left: 63px;
+    margin-left: 60px;
     margin-bottom: 5px;
     margin-top: 5px;
     padding: 10px;
     float: left;
+    border-style: solid;
+    border-color: white;
+    border-width: thin;
+    border-radius: 10px;
     transition: opacity .5s;
+    cursor: pointer;
+    text-align: center;
 }
 
 #health{
@@ -95,7 +122,7 @@ body{
 
 .indexbuttons:hover{
     box-shadow: 0 0 9px black;
-    opacity: 1
+    opacity: 1;
 }
 
 #container2 a{

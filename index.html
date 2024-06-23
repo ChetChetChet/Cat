@@ -3,21 +3,26 @@
     <title>Home</title>
     <link rel="stylesheet" href="index.css">
     <link rel="icon" href="caticon5.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
     <script src="index.js"></script>
     <div class="wrapper">
+        <div class="navbar">
+            <ul>
+                <div id="icon">
+                    <a href="#"><img src="caticon5.png" id="iconpng"></a>
+                </div>
+                <div id="cats">
+                    <a href="#"> Gatopedia</a>
+                </div>  
+            </ul>
+        </div>
         <div id="container">
-            <div class="navbar">
-                <ul>
-                    <div id="icon">
-                        <a href="#"><img src="caticon5.png" id="iconpng"></a>
-                    </div>
-                    <div id="cats">
-                        <a href="#"> Cats</a>
-                    </div>  
-                </ul>
-            </div>
+            <img src="caticon5.png" id="indexpng"><h1 id="name">Gatopedia</h1>
+            <br>
+            <h2 class="text">Explore the world of cats that capture our hearts. <br>We'll be your guide in understanding more 
+            <br>about these captivating creatures.</h2>
         </div>
         <div id="container2">
             <div class="indexbuttons" id="breeds" onclick="window.location.href='breeds.html'">    
@@ -34,5 +39,6 @@
             </div>
         </div>
     </div>
+    <script src="index.js"></script>
 </body>
 </html>
