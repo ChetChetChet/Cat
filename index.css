@@ -100,6 +100,7 @@ body{
     border-width: thin;
     border-radius: 10px;
     transition: opacity .5s;
+    transition: font-size .5s;
     cursor: pointer;
     text-align: center;
 }
@@ -119,10 +120,15 @@ body{
     background-size: cover;
 }
 
+#behavior{
+    background-image: url(behavioorpic.jpg);
+    background-size: cover;
+}
 
 .indexbuttons:hover{
     box-shadow: 0 0 9px black;
     opacity: 1;
+    font-size: 150%;
 }
 
 #container2 a{
