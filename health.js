@@ -67,7 +67,7 @@ const badFoods = {
     "onion": "Onions can cause gastrointestinal upset and anemia in cats.",
     "garlic": "Garlic is toxic to cats and can cause gastrointestinal upset and anemia.",
     "grapes": "Grapes can cause kidney failure in cats.",
-    "raisins": "Raisins can cause kidney failure in cats.",
+    "raisin ": "Raisins can cause kidney failure in cats.",
     "alcohol": "Wine, beer, liquor and food that contains alcohol can result in diarrhea, vomiting, breathing problems, tremors and other serious conditions. Alcohol is toxic to cats and can cause death.",
     "wine": "Wine, beer, liquor and food that contains alcohol can result in diarrhea, vomiting, breathing problems, tremors and other serious conditions. Alcohol is toxic to cats and can cause death.",
     "beer": "Wine, beer, liquor and food that contains alcohol can result in diarrhea, vomiting, breathing problems, tremors and other serious conditions. Alcohol is toxic to cats and can cause death.",
@@ -97,7 +97,7 @@ function toSearch() {
         var gif = document.createElement("img");
         gif.src = "sad.gif";
         gif.width = 300;
-        gif.style.margin = "0 auto"
+        gif.style.margin = "10px auto";
         result.appendChild(gif)
     } else {
         result.textContent = `${foodInput} is safe for your cat.`;
@@ -108,7 +108,7 @@ function toSearch() {
         var gif = document.createElement("img");
         gif.src = "happy.gif";
         gif.width = 300;
-        gif.style.margin = "0 auto"
+        gif.style.margin = "10px auto";
         result.appendChild(gif)
         result.appendChild(gif)
     }
