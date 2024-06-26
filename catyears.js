@@ -11,8 +11,6 @@ function convert() {
             document.getElementById("catyr").value = 24 + (humanAge - 2) * 4;
         }
 
-        document.getElementById("humanyr").value = "";
-
     } else if (!isNaN(catAge) && catAge >= 0) {
         if (catAge == 15) {
             document.getElementById("humanyr").value = 1;
@@ -21,8 +19,6 @@ function convert() {
         } else if (catAge > 24) {
             document.getElementById("humanyr").value = 2 + (catAge - 24) / 4;
         }
-
-        document.getElementById("catyr").value = "";
 
     } else {
         alert("Invalid input!");

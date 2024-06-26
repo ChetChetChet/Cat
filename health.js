@@ -72,6 +72,7 @@ const badFoods = {
     "wine": "Wine, beer, liquor and food that contains alcohol can result in diarrhea, vomiting, breathing problems, tremors and other serious conditions. Alcohol is toxic to cats and can cause death.",
     "beer": "Wine, beer, liquor and food that contains alcohol can result in diarrhea, vomiting, breathing problems, tremors and other serious conditions. Alcohol is toxic to cats and can cause death.",
     "caffeine": "Caffeine is toxic to cats and can cause rapid breathing, heart palpitations, and muscle tremors.",
+    "coffee": "Caffeine is toxic to cats and can cause rapid breathing, heart palpitations, and muscle tremors.",
     "xylitol": "Xylitol is toxic to cats and can cause hypoglycemia, seizures, liver failure, and death.",
     "avocado": "Avocado contains persin, which can cause vomiting and diarrhea in cats.",
     "macadamia nuts": "Macadamia nuts can cause lethargy, vomiting, and hyperthermia in cats.",
